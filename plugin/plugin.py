@@ -4,8 +4,8 @@ from . import _
 #
 #    Plugin for Dreambox-Enigma2
 #    version:
-VERSION = "1.10"
-#    Coded by shamann (c)2012 & ims (2012) as ClearMem
+VERSION = "1.09"
+#    Coded by shamann & ims (c)2012 as ClearMem on basic idea by moulikpeta
 #	latest modyfication by ims:
 #	- ngettext, getMemory, freeMemory, WHERE_PLUGINMENU, Info, translate 
 #	- rebuild timers, less code, renamed to CacheFlush
@@ -286,8 +286,8 @@ class CacheFlushAutoScreen(Screen):
 
 class CacheFlushInfoScreen(Screen):
 	skin = """<screen name="CacheFlushInfoScreen" position="center,center" zPosition="2" size="400,580" title="CacheFlush Info" backgroundColor="#31000000" >
-			<widget name="memtext" font="Regular;18" position="10,0" zPosition="2" valign="center" halign="left" size="230,550" backgroundColor="#31000000" transparent="1" />
-			<widget name="memvalue" font="Regular;18" position="250,0" zPosition="2" valign="center" halign="right" size="140,550" backgroundColor="#31000000" transparent="1" />
+			<widget name="memtext" font="Regular;14" position="10,0" zPosition="2" valign="center" halign="left" size="230,530" backgroundColor="#31000000" transparent="1" />
+			<widget name="memvalue" font="Regular;14" position="250,0" zPosition="2" valign="center" halign="right" size="140,530" backgroundColor="#31000000" transparent="1" />
 			<ePixmap pixmap="skin_default/div-h.png" position="0,550" zPosition="2" size="400,2" />
 			<widget name="key_red" position="10,552" zPosition="2" size="130,28" valign="center" halign="center" font="Regular;22" transparent="1" foregroundColor="red" />
 			<widget name="key_green" position="130,552" zPosition="2" size="130,28" valign="center" halign="center" font="Regular;22" transparent="1" foregroundColor="green" />
