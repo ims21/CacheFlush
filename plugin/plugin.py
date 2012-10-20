@@ -4,11 +4,11 @@ from . import _
 #
 #    Plugin for Dreambox-Enigma2
 #    version:
-VERSION = "1.09"
-#    Coded by shamann (c)2012 & ims (2012)
+VERSION = "1.10"
+#    Coded by shamann (c)2012 & ims (2012) as ClearMem
 #	latest modyfication by ims:
 #	- ngettext, getMemory, freeMemory, WHERE_PLUGINMENU, Info, translate 
-#	- rebuild timers, less code
+#	- rebuild timers, less code, renamed to CacheFlush
 #
 #    This program is free software; you can redistribute it and/or
 #    modify it under the terms of the GNU General Public License
